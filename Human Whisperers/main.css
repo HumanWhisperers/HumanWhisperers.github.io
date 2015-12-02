@@ -10,7 +10,13 @@
 .jumbotron h1 {
   color: grey;
   margin-bottom: 1em;
-  text-align: left;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  color: grey;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 blockquote {
