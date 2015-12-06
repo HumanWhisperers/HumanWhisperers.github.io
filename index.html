@@ -5,20 +5,8 @@
     <link href='dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    
-     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  </head>
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    </head>
 
   <body>
 
@@ -44,17 +32,17 @@
   <div class='jumbotron'>   
     <div class='container'>
       <div class='row'>
-        <h1>Human Whisperers</h1>
-        <h2>Advice from animals</h2>
+        <img src="images/hwlogoedited.jpg" alt="logo" class=" img-responsive center-block"> 
       </div>
     </div>
 
     <div id="mission" class='text-center'>
       <div class='container'>
-        <h3> Clarity. Speed. Efficiency. </h3>
+        <h2> Need some advice? </h2>
         </br>
-        <p class='lead'>We believe that everyone deserves outstanding customer service, not just theatre-goers.</p>
-        <p class='lead'>Providing box offices with the ability to solve their own problems in a friendly, polite environment will provide an increased knowledge base across the business.</p>
+        <blockquote><p class='lead'>Some people talk to animals. Not many people listen though. That's the problem.<small> A. A. Milne</small></p></blockquote>
+      </br>
+        <p class='lead'>Whether you're <span class='animal'>dog</span>ged with problems, coping with a <span class='animal'>cat</span>astrophe or just <span class='animal'>otter</span>ly confused, put your life is someone else's paws and get some advice from a four-legged friend.</p>
       </div>
     </div>
   
@@ -62,24 +50,24 @@
       <div class='container'>
         <div class='row'>
 
-          <div class='col-sm-4'>
-            <img src="images/calm.png">
+          <div class='col-sm-4' style="text-align: center">
+            <img src="images/dog.jpg" alt="Dog" height="300" width="300">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks()">
             </form>
           </div>
 
-           <div class='col-sm-4'>
-            <img src="images/calm.png">
+           <div class='col-sm-4' style="text-align: center">
+            <img src="images/cat.jpg" alt="Cat" height="300" width="300">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks2()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks2()">
             </form>
           </div>
 
-          <div class='col-sm-4'>
-            <img src="images/calm.png">
+          <div class='col-sm-4' style="text-align: center">
+            <img src="images/otter.jpg" alt="Otter" height="300" width="300">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks3()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks3()">
             </form>
           </div>
        </div>
@@ -108,11 +96,11 @@
         function randomlinks2(){
           var myrandom=Math.round(Math.random()*5)
           var links=new Array()
-            links[0]="cat1.html"
-            links[1]="cat1.html"
-            links[2]="cat1.html"
-            links[3]="cat1.html"
-            links[4]="cat1.html"
+            links[0]="responses/cat1.html"
+            links[1]="responses/cat1.html"
+            links[2]="responses/cat1.html"
+            links[3]="responses/cat1.html"
+            links[4]="responses/cat1.html"
    
  
           window.location=links[myrandom]
@@ -123,11 +111,11 @@
         function randomlinks3(){
           var myrandom=Math.round(Math.random()*5)
           var links=new Array()
-            links[0]="otter1.html"
-            links[1]="otter1.html"
-            links[2]="otter1.html"
-            links[3]="otter1.html"
-            links[4]="otter1.html"
+            links[0]="responses/otter1.html"
+            links[1]="responses/otter1.html"
+            links[2]="responses/otter1.html"
+            links[3]="responses/otter1.html"
+            links[4]="responses/otter1.html"
    
  
           window.location=links[myrandom]

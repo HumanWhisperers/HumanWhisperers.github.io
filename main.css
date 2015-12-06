@@ -2,9 +2,10 @@
   padding-top: 90px;
   min-height: 200px;
   margin-bottom: 0;
-  background-image: url('images/fruit-and-veg.jpg');
+  background-image: url('images/paw-prints-background.jpg');
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .jumbotron h1 {
@@ -14,7 +15,7 @@
 }
 
 .jumbotron h2 {
-  color: grey;
+  color: white;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -84,21 +85,24 @@ h2 {
  }
 
  #button {
-    background-color: #ccc;
+    background-color: #00acee;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius:6px;
-    color: gray;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
     border:none;
 }
 
-
-
 #button:hover {
     border: none;
     background:red;
     box-shadow: 0px 0px 1px #777;
+}
+
+.animal {
+ color: #b62f26;
+
 }
