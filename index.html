@@ -44,9 +44,16 @@
         <blockquote><p class='lead'>Some people talk to animals. Not many people listen though. That's the problem.<small> A. A. Milne</small></p></blockquote>
       </br>
         <p class='lead'>Whether you're <span class='animal'>dog</span>ged with problems, coping with a <span class='animal'>cat</span>astrophe or just <span class='animal'>otter</span>ly confused, put your life is someone else's paws and get some advice from a four-legged friend.</p>
+      </br>
+      <div class="questionform"
+        <form>
+  <span>Enter your question: </span><input type="text" name="question" class='question form'><span class= "glyphicon glyphicon-info-sign" class='mastertooltip' title='Type in your question and click on the button below the animal of your choice.'></span>
+</form>
+      </div>
       </div>
     </div>
-  
+
+    
     <div class="form">
       <div class='container'>
         <div class='row'>
@@ -122,6 +129,30 @@
           window.location=links[myrandom]
       }
     </script>
+
+    <script type="text/javascript">
+$(document).ready(function() {
+// Tooltip only Text
+$('.masterTooltip').hover(function(){
+        // Hover over code
+        var title = $(this).attr('title');
+        $(this).data('tipText', title).removeAttr('title');
+        $('<p class="tooltip"></p>')
+        .text(title)
+        .appendTo('body')
+        .fadeIn('slow');
+}, function() {
+        // Hover out code
+        $(this).attr('title', $(this).data('tipText'));
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX + 20; //Get X coordinates
+        var mousey = e.pageY + 10; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
+});
+</script>
 
 </body>
 </html>

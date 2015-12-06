@@ -119,7 +119,20 @@ h2 {
  color: #41A317;
 }
 .animalphoto {
-  border:5px solid #835C3B;
+  border: 5px solid #835C3B;
 }
-
+.questionform input{
+  width: 850px;
+  color: #41A317;
+}
+.tooltip {
+  display:none;
+  position:absolute;
+  border:1px solid #333;
+  background-color: white;
+  border-radius:5px;
+  padding:10px;
+  color:#fff;
+  font-size:12px;
+  }
 
