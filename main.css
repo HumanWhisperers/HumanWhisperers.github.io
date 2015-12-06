@@ -48,6 +48,7 @@ h2 {
 
 .navbar-inverse {
   background-color: rgba(32, 35, 41,0.8);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-inline input[name='email'] {
@@ -85,6 +86,8 @@ h2 {
  }
  .return {
   text-align: center;
+  background-color: #49311C;
+  padding: 5px 0px 10px 0px; 
  }
 
  #button {
