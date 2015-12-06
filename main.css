@@ -7,6 +7,7 @@ body{
   padding-top: 90px;
   min-height: 200px;
   margin-bottom: 0;
+  text-align: center;
   background-color:rgba(0, 0, 0, 0.25);
   font-family: 'Gloria Hallelujah', cursive;
 }
@@ -25,6 +26,10 @@ body{
 
 blockquote {
   border-left: 0;
+}
+
+#logo {
+  background-color: rgba(96, 144, 32, 0.9);
 }
 
 #mission {
@@ -88,7 +93,8 @@ h2 {
  .return {
   text-align: center;
   background-color: #49311C;
-  padding: 5px 0px 10px 0px; 
+  padding: 10px 0px 10px 0px;
+  margin: 50px 0px 20px 0px; 
  }
 
  #button {
