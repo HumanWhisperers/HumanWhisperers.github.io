@@ -3,7 +3,7 @@
   min-height: 200px;
   margin-bottom: 0;
   background-image: url('images/paw-prints-background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   font-family: 'Gloria Hallelujah', cursive;
 }
@@ -104,5 +104,7 @@ h2 {
 
 .animal {
  color: #b62f26;
-
 }
+
+
+
