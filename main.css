@@ -6,10 +6,9 @@ body{
 .jumbotron {
   padding-top: 90px;
   min-height: 200px;
-  margin-bottom: 0;
   text-align: center;
   background-color:rgba(0, 0, 0, 0.25);
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Gloria Hallelujah', cursive;ß
 }
 
 .jumbotron h1 {
@@ -36,6 +35,8 @@ blockquote {
   background-color: rgba(32, 35, 41, 0.9);
   color: #ddd;
   padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .jumbotron .form-group {
   line-height: 1em;
@@ -45,7 +46,8 @@ blockquote {
   color: white;
 }
 .jumbotron img {
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 h2 {
   margin-bottom: 1.5em;
@@ -121,9 +123,21 @@ h2 {
 .animalphoto {
   border: 5px solid #835C3B;
 }
+.questionform {
+  background-color: rgba(96, 144, 32, 0.9);
+  margin-top: 40px;
+  padding-bottom: 40px;
+  
+}
+.questionform p {
+  padding-top: 7px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .questionform input{
   width: 850px;
   color: #41A317;
+  
 }
 .tooltip {
   display:none;
