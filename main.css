@@ -1,6 +1,7 @@
 body{
   background-image: url('images/css/paw-print-seamless-pattern.png');
   background-attachment: fixed;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .jumbotron {
@@ -8,7 +9,6 @@ body{
   min-height: 200px;
   text-align: center;
   background-color:rgba(0, 0, 0, 0.25);
-  font-family: 'Gloria Hallelujah', cursive;ß
 }
 
 .jumbotron h1 {
@@ -56,7 +56,6 @@ h2 {
 .navbar-inverse {
   color: #49311C;
   background-color: #1b5e0c;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .form-inline input[name='email'] {
