@@ -5,20 +5,9 @@
     <link href='dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    
-     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  </head>
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    </head>
 
   <body>
 
@@ -35,51 +24,62 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#contactus">Contact Us</a>
+            <li><a href="./about.html">Contact Us</a>
           </ul>
         </div>
       </div>
     </nav>
 
   <div class='jumbotron'>   
-    <div class='container'>
-      <div class='row'>
-        <h1>Human Whisperers</h1>
-        <h2>Advice from animals</h2>
+    <div id='logo'>
+      <div class='container'>
+        <img src="images/css/humanwhispererslogo.png" alt="logo" class=" img-responsive center-block"> 
       </div>
     </div>
 
     <div id="mission" class='text-center'>
       <div class='container'>
-        <h3> Clarity. Speed. Efficiency. </h3>
+        <h2> Need some advice? </h2>
         </br>
-        <p class='lead'>We believe that everyone deserves outstanding customer service, not just theatre-goers.</p>
-        <p class='lead'>Providing box offices with the ability to solve their own problems in a friendly, polite environment will provide an increased knowledge base across the business.</p>
-      </div>
+        <blockquote><p class='lead'>Some people talk to animals. Not many people listen though. That's the problem.<small> A. A. Milne</small></p></blockquote>
+      </br>
+        <p class='lead'>Whether you're <span class='animal'>dog</span>ged with problems, coping with a <span class='animal'>cat</span>astrophe or just <span class='animal'>otter</span>ly confused, put your life is someone else's paws and get some advice from a four-legged friend.</p>
+      </br>
     </div>
-  
+  </div>
+      <div class="questionform">
+        <p></p>
+        <p>Lorem ipsum dolor sit amet, mei ea putant aliquip sensibus, vix nemore equidem praesent cu, no omnis doming sea. Erant omnium aliquam nam ut, nobis convenire dissentiet vel id, per in volutpat gloriatur persecuti. Id meliore dolores nam, facete suscipit definiebas ut cum. Augue oratio corpora ut vel. Vim te quis solet fuisset, disputando intellegebat an has. Ne his aeque vocent tibique, pro habeo eirmod prompta in. Vix tale nullam an, elit tibique vix ex.</p>
+        <p>Et meis apeirian mel, possim tibique at vel. Augue habemus placerat no eos. Ea esse officiis vim, has te adipisci ocurreret moderatius, ut brute essent veritus eum. At mel offendit luptatum. Nulla docendi vituperatoribus est ne. Et percipit deseruisse eum, soleat feugiat nusquam ea eum. No diam rebum mei, eos audire pertinax ut.</p>
+        <form>
+  <span>Enter your question: </span><input type="text" name="question" class='question form'><span class= "glyphicon glyphicon-info-sign" class='mastertooltip' title='Type in your question and click on the button below the animal of your choice.'></span>
+</form>
+      </div>
+      
+
+    
     <div class="form">
       <div class='container'>
         <div class='row'>
 
-          <div class='col-sm-4'>
-            <img src="images/calm.png">
+          <div class='col-sm-4' style="text-align: center">
+            <img src="images/animals/dog.jpg" alt="Dog" height="300" width="300" class="animalphoto">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks()">
             </form>
           </div>
 
-           <div class='col-sm-4'>
-            <img src="images/calm.png">
+           <div class='col-sm-4' style="text-align: center">
+            <img src="images/animals/cat.jpg" alt="Cat" height="300" width="300" class="animalphoto">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks2()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks2()">
             </form>
           </div>
 
-          <div class='col-sm-4'>
-            <img src="images/calm.png">
+          <div class='col-sm-4' style="text-align: center">
+            <img src="images/animals/otter.jpg" alt="Otter" height="300" width="300" class="animalphoto">
             <form>
-              <input type="button" value="Help Me" id ='button' onClick="randomlinks3()">
+              <input type="button" value="Want some help?" id ='button' onClick="randomlinks3()">
             </form>
           </div>
        </div>
@@ -93,11 +93,11 @@
         function randomlinks(){
           var myrandom=Math.round(Math.random()*5)
           var links=new Array()
-            links[0]="responses/dog1.html"
-            links[1]="responses/dog1.html"
-            links[2]="responses/dog1.html"
-            links[3]="responses/dog1.html"
-            links[4]="responses/dog1.html"
+            links[0]="dog1.html"
+            links[1]="dog2.html"
+            links[2]="dog3.html"
+            links[3]="dog4.html"
+            links[4]="dog5.html"
    
  
           window.location=links[myrandom]
@@ -109,10 +109,10 @@
           var myrandom=Math.round(Math.random()*5)
           var links=new Array()
             links[0]="cat1.html"
-            links[1]="cat1.html"
-            links[2]="cat1.html"
-            links[3]="cat1.html"
-            links[4]="cat1.html"
+            links[1]="cat2.html"
+            links[2]="cat3.html"
+            links[3]="cat4.html"
+            links[4]="cat5.html"
    
  
           window.location=links[myrandom]
@@ -124,15 +124,39 @@
           var myrandom=Math.round(Math.random()*5)
           var links=new Array()
             links[0]="otter1.html"
-            links[1]="otter1.html"
-            links[2]="otter1.html"
-            links[3]="otter1.html"
-            links[4]="otter1.html"
+            links[1]="otter2.html"
+            links[2]="otter3.html"
+            links[3]="otter4.html"
+            links[4]="otter5.html"
    
  
           window.location=links[myrandom]
       }
     </script>
+
+    <script type="text/javascript">
+$(document).ready(function() {
+// Tooltip only Text
+$('.masterTooltip').hover(function(){
+        // Hover over code
+        var title = $(this).attr('title');
+        $(this).data('tipText', title).removeAttr('title');
+        $('<p class="tooltip"></p>')
+        .text(title)
+        .appendTo('body')
+        .fadeIn('slow');
+}, function() {
+        // Hover out code
+        $(this).attr('title', $(this).data('tipText'));
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX + 20; //Get X coordinates
+        var mousey = e.pageY + 10; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
+});
+</script>
 
 </body>
 </html>
